@@ -1,6 +1,6 @@
-# 🏰 Stacy V2 - Minecraft Server Status Bot ⚔️🎮
+# 🏰 McStatusBot V2 - Minecraft Server Status Bot ⚔️🎮
 
-**Stacy V2** is a cute, cool, and powerful Discord bot designed to fetch and display the status of both **Java** and **Bedrock** Minecraft servers with stylish, colorful embeds! Powered by the `mcstatus.io` API, Stacy V2 provides real-time updates on player counts, server versions, and lets you know if your server is online or offline. You can even add your custom server image for a personalized touch!
+**McStatusBotV2** is a cute, cool, and powerful Discord bot designed to fetch and display the status of both **Java** and **Bedrock** Minecraft servers with stylish, colorful embeds! Powered by the `mcstatus.io` API, Stacy V2 provides real-time updates on player counts, server versions, and lets you know if your server is online or offline. You can even add your custom server image for a personalized touch!
 
 ## 🚀 Features
 
@@ -10,7 +10,7 @@
 - 🛠️ **Version Info**: Displays the Minecraft server version, including if it's outdated or the latest.
 - 🖼️ **Customizable Image**: Add your server logo or banner directly into the status embed for personalization.
 - ⚠️ **Error Handling**: Provides clear error messages when there’s an issue fetching server data (e.g., invalid IP).
-- 🔄 **Automatic Refresh**: Stacy can refresh server status at regular intervals, providing real-time updates.
+- 🔄 **Automatic Refresh**: McStatusBotV2 can refresh server status at regular intervals, providing real-time updates.
 - 🎮 **Server Connection Instructions**: Users can add their own instructions for connecting to the server, visible in the embed.
 
 ## 🔧 Setup Guide
@@ -31,7 +31,7 @@ Before you start, ensure you have the following installed:
 1. **Clone the repository**:
 
     ```bash
-    git clone https://github.com/oxyzox/stacy-v2.git
+    git clone https://github.com/oxyzox/McStatusBotV2.git
     cd stacy-v2
     ```
 
@@ -61,7 +61,7 @@ Before you start, ensure you have the following installed:
 
 ### 🎮 Usage
 
-Once Stacy V2 is running, you can use the following command to get the status of any Minecraft server:
+Once McStatusBotV2 is running, you can use the following command to get the status of any Minecraft server:
 
 - `/status <server_type> <server_ip> [image_url] [connection_instructions]`
 
@@ -80,11 +80,11 @@ This will return a beautiful embed with the server status, player count, server 
 
 ### Customizing the Embed
 
-Stacy allows users to add a personal touch to the embed using an image and custom connection instructions. You can add your server's logo, a banner, or even instructions to help new players connect.
+McStatusBotV2 allows users to add a personal touch to the embed using an image and custom connection instructions. You can add your server's logo, a banner, or even instructions to help new players connect.
 
 ## 🔄 Automatic Status Refresh
 
-To make sure your server's status stays up-to-date, Stacy refreshes the information every few minutes. You can customize the refresh interval in the bot's code by adjusting the scheduling logic.
+To make sure your server's status stays up-to-date, McStatusBotV2 refreshes the information every few minutes. You can customize the refresh interval in the bot's code by adjusting the scheduling logic.
 
 ## 🤝 Contributing
 
